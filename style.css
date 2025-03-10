@@ -39,7 +39,7 @@ body{
 
 button{
     padding: 12px;
-    width: 30%;
+    width: 100%;
     font-size: 1.2rem;
     background-color: aquamarine;
     border: none;
@@ -60,3 +60,12 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
+
+@media  (max-width: 600px) {
+    .container{
+        width: 90%;
+        height: 54vh;
+    }
+   
+    
+  }
